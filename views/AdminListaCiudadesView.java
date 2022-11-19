@@ -15,7 +15,7 @@ import es.uca.gii.iw.crusaito.clases.Ciudad;
 import es.uca.gii.iw.crusaito.security.SecurityUtils;
 import es.uca.gii.iw.crusaito.servicios.CiudadService;
 import es.uca.gii.iw.crusaito.servicios.CruceroService;
-
+ 
 @Route(value = "ListaCiudades",layout = MainView.class)
 @SuppressWarnings("serial")
 @Secured("Admin")

@@ -21,6 +21,7 @@ import es.uca.gii.iw.crusaito.servicios.CiudadService;
 import es.uca.gii.iw.crusaito.servicios.CruceroService;
 import es.uca.gii.iw.crusaito.servicios.ServicioService;
 
+
 @Route(value = "ListaServicios",layout = MainView.class)
 @Secured("Admin")
 @SuppressWarnings("serial")

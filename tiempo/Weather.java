@@ -13,6 +13,8 @@ import com.vaadin.flow.component.orderedlayout.VerticalLayout;
 
 import es.uca.gii.iw.crusaito.clases.Ciudad;
 import es.uca.gii.iw.crusaito.common.Funciones;
+ 
+
 
 @Component
 public class Weather{
@@ -38,6 +40,7 @@ public class Weather{
 	public Weather(Ciudad ciudad) {
 		
 		try {
+			
 			
 			URLtext = "http://api.openweathermap.org/data/2.5/weather?q="+ciudad.getcNombre()+"&units=metric&lang=es&mode=xml&appid=" + token;	
 			url = new URL(URLtext);
